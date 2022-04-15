@@ -1,0 +1,146 @@
+:root {
+    --standart-height: 50px;
+    --standart-width: 50px;
+    --down-height: 46px;
+    --down-wdth: 54px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border: 2px solid rgb(0, 0, 0);
+  margin-top: 50px;
+}
+.ball {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 125px;
+  background-color: rgb(0, 0, 255);
+  border-radius: 50%;
+  animation: ball 8s ease forwards;
+}
+
+@keyframes ball {
+  0% {
+    bottom: 130%;
+  }
+  5% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  10% {
+    bottom: 90%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  15% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  20% {
+    bottom: 80%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  25% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  30% {
+    bottom: 70%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  35% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  40% {
+    bottom: 60%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  45% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  50% {
+    bottom: 50%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  55% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  60% {
+    bottom: 40%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  65% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  70% {
+    bottom: 30%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  75% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  80% {
+    bottom: 20%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  85% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  89% {
+    bottom: 10%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  92% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  94% {
+    bottom: 5%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  96% {
+    bottom: 0%;
+    height: var(--down-height);
+    width: var(--down-wdth);
+  }
+  98% {
+    bottom: 5%;
+    height: var(--standart-height);
+    width: var(--standart-width);
+  }
+  100% {
+    bottom: 0%;
+  }
+}
